@@ -9,6 +9,8 @@ namespace EROrder.WebAPI.Extensions
         {
             services.AddScoped<IUserService, UserService>();
 
+            services.AddScoped<IHomeService, HomeService>();
+
             return services;
         }
     }

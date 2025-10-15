@@ -35,7 +35,7 @@ namespace EROrder.WebAPI.Controllers.v1
         }
 
         [HttpPost]
-        public async Task<ActionResult<ApiResponse<UserResponseDto>>> CreateUser([FromBody] CreateUserRequestDto request)
+        public async Task<ActionResult<ApiResponse<UserResponseDto>>> CreateUser([FromBody] HomeRequestDto request)
         {
             var result = await userService.CreateUserAsync(request.Name, request.Email);
             

@@ -7,6 +7,8 @@ using Swashbuckle.AspNetCore.SwaggerUI;
 using EROrder.Shared.Helpers;
 using EROrder.WebAPI.Extensions;
 using EROrder.Core.Models;
+using EROrder.Core.Services;
+using EROrder.Core.Services.Interfaces;
 
 try
 {
